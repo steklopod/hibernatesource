@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernatesource.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernatesource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernatesource_jpaModelgen.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernatesource_jpaModelgen.iml" group="hibernatesource" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernatesource_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernatesource_main.iml" group="hibernatesource" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernatesource_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernatesource_test.iml" group="hibernatesource" />
+    </modules>
+  </component>
+</project>

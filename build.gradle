@@ -1,0 +1,30 @@
+plugins {
+    id "at.comm_unity.gradle.plugins.jpamodelgen" version "1.1.1"
+}
+
+group 'ru.javabegin.training.hibernate'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: "at.comm_unity.gradle.plugins.jpamodelgen"
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile('org.hibernate:hibernate-core:5.2.2.Final')
+    compile('mysql:mysql-connector-java:6.0.3')
+    compile('org.projectlombok:lombok:+')
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '+'
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+jpaModelgen {
+    library = "org.hibernate:hibernate-jpamodelgen:+"
+    jpaModelgenSourcesDir = "src/main/resources/"
+}
